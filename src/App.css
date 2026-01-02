@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #ececec;
+  font-family: Roboto,'Open Sans','Helvetica Nueue',sans-serif;
+}
+.icon{
+  font-size: 18px;
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  background-color: #212121;
+}

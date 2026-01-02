@@ -1,0 +1,61 @@
+.chatbar{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav span{
+    margin: 20px;
+}
+.user-icon{
+    background-color: #339cff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin: 5px;
+}
+.input{
+    width: 100%;
+    max-width: 700px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #303030;
+}
+input{
+    width: 100%;
+    padding:20px ;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color: #303030;
+    box-shadow:0 0 20px -15px black;
+}
+
+.input span{
+    position:absolute;
+    right: 20px;
+}
+.bottom p{
+    color:#d0d0d0;
+    font-size: 14px;
+}

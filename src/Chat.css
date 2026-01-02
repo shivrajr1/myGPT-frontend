@@ -1,0 +1,27 @@
+.chats{
+    width: 100%;
+    max-width: 700px;
+    overflow-y: scroll;
+    padding: 20px;
+    scrollbar-width: none;
+}
+
+.userDiv{
+    display: flex;
+    justify-content: flex-end;
+}
+.assistantDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.userMessage{
+    max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #303030;
+    border-radius: 10px;
+}
+.assistantMessage{
+    padding: 10px;
+}
